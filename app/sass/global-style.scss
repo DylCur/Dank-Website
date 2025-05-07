@@ -1,0 +1,73 @@
+
+// Base
+$bgcolour: #ffffff;
+$textcolour: #0f0018;
+
+// Accents
+$accent1: #5bcefa;
+$accent2: #f5a9b8;
+$accent3: #ffffff;
+
+// Buttons
+
+$buttonwidth: 15vh;
+$buttonheight: $buttonwidth*0.5;
+
+$buttondefault: #ffffff;
+$buttonhover: $accent2;
+
+// Bottom Bar
+$barpadding: 1vh;
+$hun: 99vh;
+$barpos: $hun - $buttonheight - $barpadding*2;
+
+* {
+    background-color: $bgcolour;
+    color: $textcolour;
+    font-family: sans-serif;
+}
+
+.bottom-bar{
+    background-color: $accent1;
+    width: 99%;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: $barpos;
+    border-radius: 1em;
+    padding-top: $barpadding;
+    padding-bottom: $barpadding;
+}
+
+// I dont know why its like this :sob:
+.bottom-bar a{
+    border-radius: 1em;
+}
+
+.bottom-bar button{
+    border-radius: 1em;
+    height: $buttonheight;
+    width: $buttonwidth;
+}
+
+button{
+    background-color: $buttondefault;
+    border: none;
+}
+
+button:hover{
+    background-color: $buttonhover;
+}
+
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.heading p{
+    background-color: $accent2;
+    border-radius: 0.3em;
+    // Top right bottom left
+    padding: 0.2em 0.5em 0.2em 0.5em;
+}

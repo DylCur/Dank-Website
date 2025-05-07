@@ -1,0 +1,50 @@
+* {
+  background-color: #ffffff;
+  color: #0f0018;
+  font-family: sans-serif;
+}
+
+.bottom-bar {
+  background-color: #5bcefa;
+  width: 99%;
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  top: 89.5vh;
+  border-radius: 1em;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.bottom-bar a {
+  border-radius: 1em;
+}
+
+.bottom-bar button {
+  border-radius: 1em;
+  height: 7.5vh;
+  width: 15vh;
+}
+
+button {
+  background-color: #ffffff;
+  border: none;
+}
+
+button:hover {
+  background-color: #f5a9b8;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  font-size: 3em;
+}
+
+.heading p {
+  background-color: #f5a9b8;
+  border-radius: 0.3em;
+  padding: 0.2em 0.5em 0.2em 0.5em;
+}
+
+/*# sourceMappingURL=global-style.css.map */
