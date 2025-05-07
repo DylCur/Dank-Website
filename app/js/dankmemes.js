@@ -8,7 +8,8 @@ function GenerateDankMemes(){
         "Her: Hes probably out cheating || Him: Smoking dank weed with da boiz",
         "Only boys will understand",
         "Women: Out signals are clear why don't hey get me? Their signals: ",
-        "Gay men be like: I think... i'll get the penis"
+        "Gay men be like: I think... i'll get the penis",
+        "That feeling when the wife is at work so you can watch football and drink beer",
     ]
 
     const num = Math.floor(Math.random() * dankMemes.length);

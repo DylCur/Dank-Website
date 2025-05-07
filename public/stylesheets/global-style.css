@@ -47,4 +47,17 @@ button:hover {
   padding: 0.2em 0.5em 0.2em 0.5em;
 }
 
+.memeButton {
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+button:hover p {
+  background-color: #f5a9b8;
+}
+
+button:hover #memeText {
+  background-color: #f5a9b8;
+}
+
 /*# sourceMappingURL=global-style.css.map */

@@ -71,3 +71,19 @@ button:hover{
     // Top right bottom left
     padding: 0.2em 0.5em 0.2em 0.5em;
 }
+
+.memeButton{
+    padding: 1em;
+    border-radius: 0.5em;
+
+}
+
+button:hover p{
+    background-color: $accent2;
+}
+
+button:hover #memeText{
+    background-color: $accent2;
+}
+
+
