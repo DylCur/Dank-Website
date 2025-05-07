@@ -1,0 +1,15 @@
+// Sapphic pink
+$bg-colour: #fd8ba8;
+
+.main-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    p{
+        background-color: $bg-colour;
+        padding: 3em;
+        border-radius: 1em;
+        min-width: 30em;
+    }
+}

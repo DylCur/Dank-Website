@@ -14,15 +14,17 @@
     <link rel="stylesheet" href="/public/stylesheets/dankmemes.css">
 
     <script src="/app/js/dankmemes.js"></script>
+    <script src="/app/js/dank-image-change.js"></script>
     
 </head>
-<body>
+<body onload="GenerateDankMemes()">
     <div class="heading"><p>Dank Memes</p></div>
 
     <button onclick="GenerateDankMemes()" class="memeButton">
         <p>Generate Dank Memes</p>
         <p><div id="memeText">This one goes out to the lads</div></p>
     </button>
+
 
     <div class="bottom-bar">
         <a href="/app/pages/index.html">
@@ -37,5 +39,11 @@
          <button>Page 2</button>
         </a> 
      </div>
+
+    <div class="dank">
+        <img src="https://preview.redd.it/o590h4swjt441.png?auto=webp&s=3605483b5c42b017e658a204b821b48fa36338e0", class="dank-image">
+        <img src="https://m.media-amazon.com/images/I/81isiZVEy3L.png", class="dank-image">
+        <img src="https://thunderdungeon.com/wp-content/uploads/2023/03/dank-meme-dump-14-20230326.jpeg", class="dank-image">
+    </div>
 </body>
 </html>

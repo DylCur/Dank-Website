@@ -18,6 +18,17 @@ $buttonhover: $accent2;
 
 }
 
+img{
+    width: 20em;
+    margin: 5em;
+}
+
+.dank{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+
 button:hover {
     p, #memeText{
         background-color: $accent2;

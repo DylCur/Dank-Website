@@ -1,0 +1,13 @@
+.main-text {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main-text p {
+  background-color: #fd8ba8;
+  padding: 3em;
+  border-radius: 1em;
+  min-width: 30em;
+}
+
+/*# sourceMappingURL=home.css.map */

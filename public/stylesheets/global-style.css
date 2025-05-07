@@ -11,6 +11,7 @@
   justify-content: space-around;
   position: absolute;
   border-radius: 1em;
+  padding: auto;
   padding-top: 1vh;
   padding-bottom: 1vh;
   top: 89.5vh;
@@ -28,7 +29,6 @@ button {
   background-color: #ffffff;
   border: none;
 }
-
 button:hover {
   background-color: #f5a9b8;
 }
@@ -41,7 +41,11 @@ button:hover {
 .heading p {
   background-color: #f5a9b8;
   border-radius: 0.3em;
-  padding: 0.2em 0.5em 0.2em 0.5em;
+  padding: auto;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
 /*# sourceMappingURL=global-style.css.map */

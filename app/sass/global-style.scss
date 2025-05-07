@@ -34,8 +34,12 @@ $barpos: $hun - $buttonheight - $barpadding*2;
     justify-content: space-around;
     position: absolute;
     border-radius: 1em;
-    padding-top: $barpadding;
-    padding-bottom: $barpadding;
+    
+    padding: auto{
+        top: $barpadding;
+        bottom: $barpadding;
+    }
+    
     top: $barpos;
 
     a{
@@ -52,11 +56,12 @@ $barpos: $hun - $buttonheight - $barpadding*2;
 button{
     background-color: $buttondefault;
     border: none;
+
+    &:hover{
+        background-color: $buttonhover;
+    }
 }
 
-button:hover{
-    background-color: $buttonhover;
-}
 
 .heading{
     display: flex;
@@ -64,10 +69,18 @@ button:hover{
     font-size: 3em;
 
     p{
+        $top: 0.2em;
+        $side: 0.5em;
+
         background-color: $accent2;
         border-radius: 0.3em;
-        // Top right bottom left
-        padding: 0.2em 0.5em 0.2em 0.5em;
+            // Top right bottom left
+        padding: auto{
+            top: $top;
+            bottom: $top;
+            left: $side;
+            right: $side;
+        }
     }
 }
 

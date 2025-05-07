@@ -3,6 +3,17 @@
   border-radius: 0.5em;
 }
 
+img {
+  width: 20em;
+  margin: 5em;
+}
+
+.dank {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+
 button:hover p, button:hover #memeText {
   background-color: #f5a9b8;
 }
