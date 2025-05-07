@@ -1,4 +1,3 @@
-
 // Base
 $bgcolour: #ffffff;
 $textcolour: #0f0018;
@@ -9,12 +8,13 @@ $accent2: #f5a9b8;
 $accent3: #ffffff;
 
 // Buttons
+$buttondefault: #ffffff;
+$buttonhover: $accent2;
+// Buttons
 
 $buttonwidth: 15vh;
 $buttonheight: $buttonwidth*0.5;
 
-$buttondefault: #ffffff;
-$buttonhover: $accent2;
 
 // Bottom Bar
 $barpadding: 1vh;
@@ -33,21 +33,20 @@ $barpos: $hun - $buttonheight - $barpadding*2;
     display: flex;
     justify-content: space-around;
     position: absolute;
-    top: $barpos;
     border-radius: 1em;
     padding-top: $barpadding;
     padding-bottom: $barpadding;
-}
+    top: $barpos;
 
-// I dont know why its like this :sob:
-.bottom-bar a{
-    border-radius: 1em;
-}
+    a{
+        border-radius: 1em;
+    }
 
-.bottom-bar button{
-    border-radius: 1em;
-    height: $buttonheight;
-    width: $buttonwidth;
+    button{
+        border-radius: 1em;
+        height: $buttonheight;
+        width: $buttonwidth;
+    }
 }
 
 button{
@@ -63,27 +62,12 @@ button:hover{
     display: flex;
     justify-content: center;
     font-size: 3em;
+
+    p{
+        background-color: $accent2;
+        border-radius: 0.3em;
+        // Top right bottom left
+        padding: 0.2em 0.5em 0.2em 0.5em;
+    }
 }
-
-.heading p{
-    background-color: $accent2;
-    border-radius: 0.3em;
-    // Top right bottom left
-    padding: 0.2em 0.5em 0.2em 0.5em;
-}
-
-.memeButton{
-    padding: 1em;
-    border-radius: 0.5em;
-
-}
-
-button:hover p{
-    background-color: $accent2;
-}
-
-button:hover #memeText{
-    background-color: $accent2;
-}
-
 

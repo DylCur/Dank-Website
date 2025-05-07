@@ -1,0 +1,10 @@
+.memeButton {
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+button:hover p, button:hover #memeText {
+  background-color: #f5a9b8;
+}
+
+/*# sourceMappingURL=dankmemes.css.map */

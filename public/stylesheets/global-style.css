@@ -10,16 +10,14 @@
   display: flex;
   justify-content: space-around;
   position: absolute;
-  top: 89.5vh;
   border-radius: 1em;
   padding-top: 1vh;
   padding-bottom: 1vh;
+  top: 89.5vh;
 }
-
 .bottom-bar a {
   border-radius: 1em;
 }
-
 .bottom-bar button {
   border-radius: 1em;
   height: 7.5vh;
@@ -40,24 +38,10 @@ button:hover {
   justify-content: center;
   font-size: 3em;
 }
-
 .heading p {
   background-color: #f5a9b8;
   border-radius: 0.3em;
   padding: 0.2em 0.5em 0.2em 0.5em;
-}
-
-.memeButton {
-  padding: 1em;
-  border-radius: 0.5em;
-}
-
-button:hover p {
-  background-color: #f5a9b8;
-}
-
-button:hover #memeText {
-  background-color: #f5a9b8;
 }
 
 /*# sourceMappingURL=global-style.css.map */

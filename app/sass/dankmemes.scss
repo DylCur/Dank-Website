@@ -1,0 +1,26 @@
+// Base
+$bgcolour: #ffffff;
+$textcolour: #0f0018;
+
+// Accents
+$accent1: #5bcefa;
+$accent2: #f5a9b8;
+$accent3: #ffffff;
+
+// Buttons
+$buttondefault: #ffffff;
+$buttonhover: $accent2;
+
+
+.memeButton{
+    padding: 1em;
+    border-radius: 0.5em;
+
+}
+
+button:hover {
+    p, #memeText{
+        background-color: $accent2;
+    }
+}
+
