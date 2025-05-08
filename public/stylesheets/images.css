@@ -1,0 +1,33 @@
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgba(253, 139, 168, 0.4);
+  backdrop-filter: blur(0.4em);
+  width: 80vw;
+  border-radius: 0.8em;
+  min-height: 40em;
+  border: 0.1em solid rgba(0, 0, 0, 0.3333333333);
+}
+.images section .buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.images section .buttons * {
+  width: 10em;
+}
+.images section .buttons .name {
+  display: flex;
+}
+.images #current-img {
+  border: 0.2em solid black;
+}
+
+/*# sourceMappingURL=images.css.map */
