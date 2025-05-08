@@ -1,13 +1,17 @@
 .main-text {
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  margin-left: 5em;
   text-align: center;
 }
 .main-text p {
-  background-color: #fd8ba8;
+  background-color: rgba(253, 139, 168, 0.4);
   padding: 3em;
   border-radius: 1em;
   min-width: 30em;
+  backdrop-filter: blur(0.8em);
+  min-height: 30em;
+  border: 0.1em solid rgba(0, 0, 0, 0.3333333333);
 }
 
 /*# sourceMappingURL=home.css.map */

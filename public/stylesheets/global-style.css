@@ -1,7 +1,10 @@
 * {
-  background-color: #ffffff;
   color: #0f0018;
   font-family: sans-serif;
+}
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqFEL0MCpXSpz4eTeKzbZXmk2Mepd4p5kgA&s");
 }
 
 .bottom-bar {
@@ -30,7 +33,7 @@ button {
   border: none;
 }
 button:hover {
-  background-color: #f5a9b8;
+  background-color: rgba(245, 169, 184, 0.2);
 }
 
 .heading {
@@ -39,13 +42,15 @@ button:hover {
   font-size: 3em;
 }
 .heading p {
-  background-color: #f5a9b8;
+  background-color: rgba(245, 169, 184, 0.2);
   border-radius: 0.3em;
   padding: auto;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
+  backdrop-filter: blur(0.8em);
+  border: 0.1em solid rgba(0, 0, 0, 0.3333333333);
 }
 
 /*# sourceMappingURL=global-style.css.map */

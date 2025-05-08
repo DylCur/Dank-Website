@@ -4,7 +4,7 @@ $textcolour: #0f0018;
 
 // Accents
 $accent1: #5bcefa;
-$accent2: #f5a9b8;
+$accent2: #f5a9b833;
 $accent3: #ffffff;
 
 // Buttons
@@ -22,9 +22,13 @@ $hun: 99vh;
 $barpos: $hun - $buttonheight - $barpadding*2;
 
 * {
-    background-color: $bgcolour;
+    // background-color: $bgcolour;
     color: $textcolour;
     font-family: sans-serif;
+}
+
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqFEL0MCpXSpz4eTeKzbZXmk2Mepd4p5kgA&s");
 }
 
 .bottom-bar{
@@ -81,6 +85,10 @@ button{
             left: $side;
             right: $side;
         }
+
+        backdrop-filter: blur(0.8em);
+
+        border: 0.1em solid #00000055;
     }
 }
 
