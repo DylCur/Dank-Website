@@ -30,6 +30,7 @@ function dank(){
             ]
             
             let image = this.src;
+            
             while(image == this.src){
                 image = dankImages[Math.floor(Math.random() * dankImages.length)];
             }

@@ -4,36 +4,38 @@
 }
 
 body {
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPqFEL0MCpXSpz4eTeKzbZXmk2Mepd4p5kgA&s");
+  background-image: url("https://64.media.tumblr.com/be7661b96062d2aff8687f58a823956e/901d0d11c4e6f7ce-69/s250x400/00daeebdcebbcc22cbc5571020a255a613edfcb3.gifv");
+  background-size: 15em;
 }
 
 .bottom-bar {
-  background-color: #5bcefa;
-  width: 99%;
+  background-color: rgba(91, 206, 250, 0.7333333333);
+  width: 100%;
+  left: 0;
   display: flex;
   justify-content: space-around;
-  position: absolute;
-  border-radius: 1em;
+  position: fixed;
+  backdrop-filter: blur(0.2em);
+  bottom: 0;
   padding: auto;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  top: 89.5vh;
+  padding-top: 1.9vh;
+  padding-bottom: 1.9vh;
 }
 .bottom-bar a {
   border-radius: 1em;
 }
 .bottom-bar button {
+  transition-property: background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
   border-radius: 1em;
   height: 7.5vh;
   width: 15vh;
-}
-
-button {
   background-color: #ffffff;
   border: none;
 }
-button:hover {
-  background-color: rgba(245, 169, 184, 0.2);
+.bottom-bar button:hover {
+  background-color: #d38bfd;
 }
 
 .heading {
@@ -42,15 +44,15 @@ button:hover {
   font-size: 3em;
 }
 .heading p {
-  background-color: rgba(245, 169, 184, 0.2);
+  color: white;
+  background-color: rgba(245, 169, 184, 0.5333333333);
   border-radius: 0.3em;
   padding: auto;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
   padding-left: 0.5em;
   padding-right: 0.5em;
-  backdrop-filter: blur(0.8em);
-  border: 0.1em solid rgba(0, 0, 0, 0.3333333333);
+  backdrop-filter: blur(0.1em);
 }
 
 /*# sourceMappingURL=global-style.css.map */

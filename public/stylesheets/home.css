@@ -1,17 +1,38 @@
-.main-text {
+.text {
+  display: flex;
+  width: 100vw;
+  justify-content: space-around;
+}
+.text .main-text {
   display: flex;
   justify-content: left;
-  margin-left: 5em;
   text-align: center;
 }
-.main-text p {
+.text .main-text p {
+  width: 20em;
+}
+.text .side-text {
+  display: flex;
+  justify-content: right;
+  text-align: center;
+}
+.text .side-text p {
+  width: 55em;
+}
+.text p {
   background-color: rgba(253, 139, 168, 0.4);
   padding: 3em;
   border-radius: 1em;
-  min-width: 30em;
   backdrop-filter: blur(0.8em);
   min-height: 30em;
   border: 0.1em solid rgba(0, 0, 0, 0.3333333333);
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+  box-shadow: none;
+}
+.text p:hover {
+  background-color: rgba(211, 139, 253, 0.4);
 }
 
 /*# sourceMappingURL=home.css.map */

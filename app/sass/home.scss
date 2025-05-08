@@ -1,19 +1,50 @@
 // Sapphic pink
 $bg-colour: #fd8ba866;
+$hover-colour: #d38bfd66;
 
-.main-text{
+
+.text{
     display: flex;
-    justify-content: left;
-    margin-left: 5em;
-    text-align: center;
+    width: 100vw;
+    justify-content: space-around;
     
+    .main-text{
+        display: flex;
+        justify-content: left;
+
+        text-align: center;
+        
+        p{
+            width: 20em;
+        }
+    }
+
+    .side-text{
+        display: flex;
+        justify-content: right;
+        text-align: center;
+        p{
+            width: 55em;
+        }
+    }
+
     p{
         background-color: $bg-colour;
         padding: 3em;
         border-radius: 1em;
-        min-width: 30em;
         backdrop-filter: blur(0.8em);
         min-height: 30em;
         border: 0.1em solid #00000055;
+
+        transition-property: background-color;
+        transition-duration: 0.3s;
+        transition-timing-function: linear;
+        
+        box-shadow: none;
+
+
+        &:hover{
+            background-color: $hover-colour;
+        }        
     }
 }

@@ -17,6 +17,7 @@ function GenerateDankMemes(){
 
     const num = Math.floor(Math.random() * dankMemes.length);
     
+    
     document.getElementById("memeText").innerHTML = dankMemes[num];
     
 }
