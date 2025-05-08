@@ -1,3 +1,17 @@
+html, .dank, body {
+  background-image: url("https://www.vice.com/wp-content/uploads/sites/2/2022/09/1662049678863-screen-shot-2022-09-01-at-122736-pm.png");
+}
+
+html, .dank, body, .heading {
+  background-size: 10em;
+  background-position: center;
+  background-repeat: repeat;
+}
+
+.heading {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgM1cwE_Ng-6woIRNZkaaf4Bxk_PYf7VOAWw&s");
+}
+
 .memeButton {
   padding: 1em;
   border-radius: 0.5em;
