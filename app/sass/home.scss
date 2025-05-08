@@ -2,6 +2,26 @@
 $bg-colour: #fd8ba866;
 $hover-colour: #d38bfd66;
 
+$scrolling-bar-width: 50em;
+$scrolling-bar-height: 7em;
+
+.top-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .scrolling-bar{
+        display: flex;
+        align-items: center;
+        
+        background-color: $bg-colour;
+        color: white;
+
+        width: $scrolling-bar-width;
+        height: $scrolling-bar-height;
+        border-radius: 0.8em;
+    }
+}
 
 .text{
     display: flex;
@@ -15,7 +35,7 @@ $hover-colour: #d38bfd66;
         text-align: center;
         
         p{
-            width: 20em;
+            width: 30em;
         }
     }
 
@@ -24,7 +44,7 @@ $hover-colour: #d38bfd66;
         justify-content: right;
         text-align: center;
         p{
-            width: 55em;
+            width: 60em;
         }
     }
 
@@ -34,17 +54,20 @@ $hover-colour: #d38bfd66;
         border-radius: 1em;
         backdrop-filter: blur(0.8em);
         min-height: 30em;
-        border: 0.1em solid #00000055;
-
-        transition-property: background-color;
-        transition-duration: 0.3s;
-        transition-timing-function: linear;
-        
-        box-shadow: none;
-
-
-        &:hover{
-            background-color: $hover-colour;
-        }        
+        border: 0.1em solid #00000055;    
     }
+}
+
+#hover-obj{
+    background-color: $bg-colour;
+
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+
+
+
+    &:hover{
+        background-color: $hover-colour;
+    } 
 }

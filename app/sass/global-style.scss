@@ -3,12 +3,12 @@ $bgcolour: #ffffff;
 $textcolour: #0f0018;
 
 // Accents
-$accent1: #5bcefabb;
+$accent1: #d75bfabb;
 $accent2: #f5a9b888;
 $accent3: #ffffff;
 
 // Buttons
-$buttondefault: #ffffff;
+$buttondefault: #d75bfa;
 $buttonhover: #d38bfd;
 // Buttons
 
@@ -34,7 +34,7 @@ body{
 
 .bottom-bar{
     background-color: $accent1;
-    width: 100%;
+    width: 100vw;
     left: 0;
     display: flex;
     justify-content: space-around;

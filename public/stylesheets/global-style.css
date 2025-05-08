@@ -9,8 +9,8 @@ body {
 }
 
 .bottom-bar {
-  background-color: rgba(91, 206, 250, 0.7333333333);
-  width: 100%;
+  background-color: rgba(215, 91, 250, 0.7333333333);
+  width: 100vw;
   left: 0;
   display: flex;
   justify-content: space-around;
@@ -31,7 +31,7 @@ body {
   border-radius: 1em;
   height: 7.5vh;
   width: 15vh;
-  background-color: #ffffff;
+  background-color: #d75bfa;
   border: none;
 }
 .bottom-bar button:hover {
