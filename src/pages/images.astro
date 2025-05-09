@@ -1,0 +1,40 @@
+---
+import BottomBar from '../components/Bottom.astro';
+import "../style/css/global-style.css";
+import "../style/css/home.css";
+---
+
+<div class="images">
+    <section>
+        <div class="buttons">
+            <button onclick="manage()">Add Image</button>
+            <button>Remove Image</button>
+            <select id="ImageSelection">
+                
+            </select> 
+            <div class="name">
+                <span>Name:</span>
+                <input type="text"> 
+            </div>
+        </div>
+
+        <img id="current-img" src="https://sass-lang.com/assets/img/logos/logo.svg">
+        
+    </section>
+</div>
+
+
+<div class="bottom-bar">
+   <a href="/app/pages/index.html">
+    <button>Home</button>
+   </a> 
+
+   <a href="/app/pages/images.html">
+    <button>Images</button>
+   </a> 
+
+   <a href="">
+    <button>Page 2</button>
+   </a> 
+   
+</div>
