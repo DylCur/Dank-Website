@@ -1,0 +1,94 @@
+$bg-colour: #fd8ba866;
+$pink1: #d75bfa;
+$pink2: #e480ff;
+$pink3: #ea9dff;
+$pink4: #f3c6ff;
+
+.images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+        color: white;
+        background-color: $bg-colour;
+        backdrop-filter: blur(0.4em);
+        width: 80vw;
+        border-radius: 0.8em;
+        min-height: 40em;
+        border: 0.1em solid #00000055; 
+        
+
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            // align-items: center;
+            background-color: #00000055;
+            border: 0.2em solid #00000055;
+            padding: 1em;
+            border-radius: 2em;
+            
+            *{
+                border: none;
+                // margin: 0.1em;
+                border-radius: 1em;
+                min-width: 7em;
+
+                transition-property: background-color;
+                transition-duration: 0.1s;
+                transition-timing-function: linear;
+            }
+
+            span{
+                color:white;
+            }
+
+            button{
+                background-color: $pink1;
+
+                &:hover{
+                    background-color: $pink2;
+                }
+
+                width: 49.282%;
+            }
+
+            select{
+                background-color: $pink2;
+                width: 100%;
+
+                &:hover{
+                    background-color: $pink3
+                }
+            }
+
+            input{
+                background-color: $pink3;
+
+                &:hover{
+                    background-color: $pink4;
+                }
+            }
+
+            .name{
+                display: flex;
+                justify-content: space-evenly;
+            }  
+
+            #buttons,#selections,#inputs{
+                margin-top: 1em;
+            }
+        }
+    }
+
+    #current-img{
+        border: 0.2em solid black;
+        border-radius: 1em;
+        padding: 3em;
+    }
+}

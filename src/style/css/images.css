@@ -1,0 +1,71 @@
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.images section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  background-color: rgba(253, 139, 168, 0.4);
+  backdrop-filter: blur(0.4em);
+  width: 80vw;
+  border-radius: 0.8em;
+  min-height: 40em;
+  border: 0.1em solid rgba(0, 0, 0, 0.3333333333);
+}
+.images section .inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: rgba(0, 0, 0, 0.3333333333);
+  border: 0.2em solid rgba(0, 0, 0, 0.3333333333);
+  padding: 1em;
+  border-radius: 2em;
+}
+.images section .inputs * {
+  border: none;
+  border-radius: 1em;
+  min-width: 7em;
+  transition-property: background-color;
+  transition-duration: 0.1s;
+  transition-timing-function: linear;
+}
+.images section .inputs span {
+  color: white;
+}
+.images section .inputs button {
+  background-color: #d75bfa;
+  width: 49.282%;
+}
+.images section .inputs button:hover {
+  background-color: #e480ff;
+}
+.images section .inputs select {
+  background-color: #e480ff;
+  width: 100%;
+}
+.images section .inputs select:hover {
+  background-color: #ea9dff;
+}
+.images section .inputs input {
+  background-color: #ea9dff;
+}
+.images section .inputs input:hover {
+  background-color: #f3c6ff;
+}
+.images section .inputs .name {
+  display: flex;
+  justify-content: space-evenly;
+}
+.images section .inputs #buttons, .images section .inputs #selections, .images section .inputs #inputs {
+  margin-top: 1em;
+}
+.images #current-img {
+  border: 0.2em solid black;
+  border-radius: 1em;
+  padding: 3em;
+}
+
+/*# sourceMappingURL=images.css.map */
